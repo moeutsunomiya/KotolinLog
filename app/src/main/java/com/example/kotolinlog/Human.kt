@@ -4,6 +4,8 @@ import android.util.Log
 
 class Human:Animal,Thinkable{
 
+    private var hobby :String = ""
+
     // 引数付きコンストラクタ
     constructor(name: String, age: Int): super(name, age) {
     }
